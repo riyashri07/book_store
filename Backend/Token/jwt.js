@@ -1,4 +1,4 @@
-const sendToken = (res, stausCode, user) => {
+const Token = (res, stausCode, user) => {
   const token = user.getjwtToken();
 
   res.status(stausCode).json({
@@ -8,4 +8,4 @@ const sendToken = (res, stausCode, user) => {
   });
 };
 
-module.exports = sendToken;
+module.exports = Token;
