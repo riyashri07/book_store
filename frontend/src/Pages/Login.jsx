@@ -10,7 +10,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useToast } from "@chakra-ui/react";
-import { login } from "../Redux/Auth/Auth.action";
+import { login } from "../Redux/Auth/action";
 
 // Initial state for login details
 const initState = {

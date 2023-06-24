@@ -10,7 +10,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { signUp } from "../Redux/Auth/Auth.action";
+import { signUp } from "../Redux/Auth/action";
 
 // Initial state for signup details
 const initState = {

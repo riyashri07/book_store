@@ -12,7 +12,7 @@ import {
   GET_SEARCH_BOOKS_ERROR,
   GET_SEARCH_BOOKS_LOADING,
   GET_SEARCH_BOOKS_SUCCESS,
-} from "./books.ActionType";
+} from "./ActionType";
 
 const baseURL = "https://witty-puffer.cyclic.app/book";
 

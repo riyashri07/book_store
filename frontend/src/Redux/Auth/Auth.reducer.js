@@ -1,12 +1,12 @@
 import {
-  ERROR_TRUE,
-  LOADING_TRUE,
-  LOG_IN_SUCCESS,
-  LOG_OUT_SUCCESS,
-  SIGN_UP_SUCCESS,
-} from "./Auth.actionType";
+    ERROR_TRUE,
+    LOADING_TRUE,
+    LOG_IN_SUCCESS,
+    LOG_OUT_SUCCESS,
+    SIGN_UP_SUCCESS,
+} from "./actionType";
 
-// Note: Do not update/change the initial state
+
 
 let token = localStorage.getItem("token");
 

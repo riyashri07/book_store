@@ -8,9 +8,9 @@ import {
   REMOVE_ORDER_ITEMS_ERROR,
   REMOVE_ORDER_ITEMS_LOADING,
   REMOVE_ORDER_ITEMS_SUCCESS,
-} from "./order.ActionType";
+} from "./ActionType";
 
-// Note: Do not update/change the initial state
+
 const orderInitalState = {
   getOrderItems: {
     loading: false,

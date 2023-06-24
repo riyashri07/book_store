@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import CartCard from "./CartCard";
+import CartContent from "./CartContent";
 
 const CartLists = ({ cartItems, handleOrder }) => {
   const [total, setTotal] = useState(0);
@@ -16,7 +16,7 @@ const CartLists = ({ cartItems, handleOrder }) => {
   return (
       <Box mt={"80px"} height={"100vh"}>
           {cartItems.map((cart) => (
-              <CartCard key={cart._id} cart={cart} />
+              <CartContent key={cart._id} cart={cart} />
           ))}
 
           <Flex px={4} gap={"10px"} alignItems={"center"}>

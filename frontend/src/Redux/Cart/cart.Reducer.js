@@ -12,9 +12,9 @@ import {
   UPDATE_CART_ITEMS_ERROR,
   UPDATE_CART_ITEMS_LOADING,
   UPDATE_CART_ITEMS_SUCCESS,
-} from "./cart.ActionType";
+} from "./ActionType";
 
-// Note: Do not update/change the initial state
+
 const cartInitalState = {
   getCartItems: {
     loading: false,

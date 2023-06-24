@@ -1,11 +1,11 @@
 import React from "react";
-import CartLists from "../Components/CartLists";
+import ListContent from "../Components/ListContent";
 import {  useSelector } from "react-redux";
 import Loading from "../Components/Loading";
-import EmptyCard from "../Components/EmptyCard";
+import Empty from "../Components/Empty";
 import { useNavigate } from "react-router-dom";
 
-const Cart = () => {
+const CartPage = () => {
   const { cartData } = useSelector((store) => store.cart);
   const navigate = useNavigate();
 
@@ -14,9 +14,9 @@ const Cart = () => {
   };
 
   if (!cartData) return <Loading />;
-  if (cartData.length < 1) return <EmptyCard name={"cart"} />;
+  if (cartData.length < 1) return <Empty name={"cart"} />;
 
-  return <CartLists cartItems={cartData} handleOrder={handleOrder}/>;
+  return <ListContent cartItems={cartData} handleOrder={handleOrder} />;
 };
 
-export default Cart;
+export default CartPage;
