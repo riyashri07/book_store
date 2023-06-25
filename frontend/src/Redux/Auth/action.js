@@ -8,9 +8,9 @@ import {
     SIGN_UP_SUCCESS,
 } from "./actionType";
 
-const baseURL = "https://witty-puffer.cyclic.app/user";
+const baseURL = "http://localhost:4321/user";
 
-//sign in
+
 export const signUp = (creds) => async (dispatch) => {
     dispatch({ type: LOADING_TRUE });
     try {
