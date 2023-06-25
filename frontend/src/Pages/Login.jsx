@@ -29,20 +29,21 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  // Handles input change event
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setLoginDetails({ ...loginDetails, [name]: value });
+    console.log(name ,value)
   };
 
-  // Handles key press event (Enter key) for submitting the login form
+
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
       handleLogin();
     }
   };
 
-  // Handles login attempt
+
   const handleLogin = async () => {
     if (email === "" || password === "") {
       return alert("fill both credentials");
