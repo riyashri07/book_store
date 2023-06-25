@@ -1,0 +1,281 @@
+{
+    "success": true,
+    "books":[
+        {
+            "_id": "64724d596d7074ed230cb17b",
+            "title": "The Secret Garden",
+            "author": "Frances Hodgson Burnett",
+            "price": 250,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Children's Literature",
+            "description": "A story about a young girl who discovers a magical garden."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb17c",
+            "title": "Harry Potter and the Chamber of Secrets",
+            "author": "J.K. Rowling",
+            "price": 300,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Fantasy",
+            "description": "The second book in the Harry Potter series."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb17d",
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "price": 450,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Coming-of-age",
+            "description": "A story of teenage angst and rebellion."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb17e",
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "price": 200,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Fantasy",
+            "description": "An epic adventure in the world of Middle-earth."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb17f",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "price": 267,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Classic",
+            "description": "A story of the Jazz Age and the American Dream."
+        },
+        {
+            "_id": "64724d596d7074ed230cb180",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "price": 400,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Classic",
+            "description": "A powerful story of racial injustice and the loss of innocence."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb181",
+            "title": "1984",
+            "author": "George Orwell",
+            "price": 510,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Dystopian",
+            "description": "A chilling vision of a totalitarian society."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb182",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "price": 614,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Romance",
+            "description": "A classic tale of love, reputation, and societal expectations."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb183",
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "price": 220,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Fantasy",
+            "description": "An epic saga set in the world of Middle-earth."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb184",
+            "title": "Jane Eyre",
+            "author": "Charlotte Brontë",
+            "price": 313,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Gothic",
+            "description": "A haunting story of love and struggle."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb185",
+            "title": "The Chronicles of Narnia",
+            "author": "C.S. Lewis",
+            "price": 417,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Fantasy",
+            "description": "A series of adventures in the magical land of Narnia."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb186",
+            "title": "Moby Dick",
+            "author": "Herman Melville",
+            "price": 316,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Adventure",
+            "description": "The gripping tale of Captain Ahab's obsession with the white whale."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb187",
+            "title": "Alice's Adventures in Wonderland",
+            "author": "Lewis Carroll",
+            "price": 311,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Fantasy",
+            "description": "A whimsical journey into a world of nonsense and imagination."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb188",
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "price": 492,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Philosophical",
+            "description": "A story of self-discovery and the pursuit of dreams."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb189",
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "price": 350,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Dystopian",
+            "description": "A futuristic novel exploring themes of technology and social control."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb18a",
+            "title": "The Picture of Dorian Gray",
+            "author": "Oscar Wilde",
+            "price": 300,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Gothic",
+            "description": "A cautionary tale of vanity and moral corruption."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb18b",
+            "title": "The Odyssey",
+            "author": "Homer",
+            "price": 415,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Epic",
+            "description": "The ancient Greek epic of Odysseus' journey home."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb18c",
+            "title": "The Scarlet Letter",
+            "author": "Nathaniel Hawthorne",
+            "price": 512,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Classic",
+            "description": "A tale of love, shame, and redemption in Puritan New England."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb18d",
+            "title": "Frankenstein",
+            "author": "Mary Shelley",
+            "price": 499,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Gothic",
+            "description": "The iconic story of a scientist and his monstrous creation."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb18e",
+            "title": "The Adventures of Tom Sawyer",
+            "author": "Mark Twain",
+            "price": 299,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Adventure",
+            "description": "A classic coming-of-age tale set along the Mississippi River."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb18f",
+            "title": "A Game of Thrones",
+            "author": "George R.R. Martin",
+            "price": 318,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Fantasy",
+            "description": "The first book in the epic fantasy series A Song of Ice and Fire."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb190",
+            "title": "The Iliad",
+            "author": "Homer",
+            "price": 415,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Epic",
+            "description": "The ancient Greek epic of the Trojan War."
+
+        },
+        {
+            "_id": "64724d596d7074ed230cb191",
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "author": "Douglas Adams",
+            "price": 350,
+            "image":
+                "https://www.realsimple.com/thmb/BRx3rQxnNc1Ywurx__p_C1lzDcM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-love-book-cover-8a607f06046b4233be19447062f9bb20.jpeg"
+            ,
+            "category": "Science Fiction",
+            "description": "A humorous and mind-bending journey through space and time."
+
+        }
+    ]
+
+}

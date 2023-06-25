@@ -1,8 +1,10 @@
 import { Grid } from "@chakra-ui/react";
 import React from "react";
 import Card_book from "./Card_book";
+import { getBooks } from "../Redux/Books/Action";
 
 const BookList = ({ books }) => {
+    // console.log(books)
   return (
       <Grid
           mt={"80px"}

@@ -14,13 +14,14 @@ import {
   GET_SEARCH_BOOKS_SUCCESS,
 } from "./ActionType";
 
-const baseURL = "https://witty-puffer.cyclic.app/book";
+const baseURL = "http://localhost:4321/book";
 
 export const getBooks = () => async (dispatch) => {
   dispatch({ type: GET_BOOKS_LOADING });
   try {
     let res = await axios.get(`${baseURL}`);
     let { books } = res.data;
+    // console.log(books)
     dispatch({ type: GET_BOOKS_SUCCESS, payload: books });
   } catch (error) {
     dispatch({ type: GET_BOOKS_ERROR });
@@ -32,6 +33,7 @@ export const getBookDetail = (id) => async (dispatch) => {
   try {
     let res = await axios.get(`${baseURL}/${id}`);
     const { book } = res.data;
+    console.log(book)
     dispatch({ type: GET_BOOK_DETAILS_SUCCESS, payload: book });
   } catch (error) {
     dispatch({ type: GET_BOOK_DETAILS_ERROR });

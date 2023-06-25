@@ -22,7 +22,7 @@ const BookCard = ({ book }) => {
         ...book,
         qty: 1,
     };
-
+    console.log(newItem);
     const handleAddToCart = () => {
         const isItemInCart = cartData.find((item) => item._id === newItem._id);
 
@@ -68,7 +68,7 @@ const BookCard = ({ book }) => {
                             : `${book.description.slice(0, 8)}...`}
                     </Text>
                     <Text fontSize="lg" fontWeight="bold" mt={2}>
-                        $ {book.price}
+                        Rs {book.price}
                     </Text>
                 </Stack>
             </Link>
@@ -89,6 +89,8 @@ const BookCard = ({ book }) => {
                 onClick={handleAddToCart}>
                 Add To Cart
             </Button>
+
+
         </Box>
     );
 };

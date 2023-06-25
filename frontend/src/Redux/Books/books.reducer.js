@@ -13,7 +13,7 @@ import {
   GET_SEARCH_BOOKS_SUCCESS,
 } from "./ActionType";
 
-// Note: Do not update/change the initial state
+
 const productInitalState = {
   loading: false,
   error: false,

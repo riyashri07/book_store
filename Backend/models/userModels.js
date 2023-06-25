@@ -14,11 +14,8 @@ const userSchema = new mongoose.Schema({
         type: String,
         require: true,
         minLength: [3],
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now(),
-    },
+    }
+
 });
 
 userSchema.methods.getjwtToken = function () {

@@ -94,7 +94,7 @@ const Navbar = () => {
                 </Box>
                 {location.pathname === "/" ? (
                     <Box>
-                        <Filter />
+                        {/* <Filter /> */}
                     </Box>
                 ) : null}
             </Flex>

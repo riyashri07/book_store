@@ -12,10 +12,11 @@ const CartLists = ({ cartItems, handleOrder }) => {
         .toFixed(2)
     );
   }, [cartItems]);
-
+    console.log(cartItems)
+    const all = cartItems[0];
   return (
       <Box mt={"80px"} height={"100vh"}>
-          {cartItems.map((cart) => (
+          {all.map((cart) => (
               <CartContent key={cart._id} cart={cart} />
           ))}
 

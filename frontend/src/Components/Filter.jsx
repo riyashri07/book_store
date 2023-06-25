@@ -7,7 +7,7 @@ const Filter = () => {
     const [selectedCategory, setSelectedCategory] = useState("");
     const { allBooks } = useSelector((store) => store.books);
     const [category, setCategory] = useState([
-        ...new Set(allBooks.map((book) => book.category)),
+        // ...new Set(allBooks.map((book) => book.category)),
     ]);
 
     const dispatch = useDispatch();
@@ -24,7 +24,7 @@ const Filter = () => {
                 <Select
                     value={selectedCategory}
                     onChange={handleCategoryChange}>
-                    <option value="">All Categories</option>
+                    <option value="">All Category</option>
                     {category.map((category) => (
                         <option key={category} value={category}>
                             {category}

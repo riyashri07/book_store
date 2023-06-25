@@ -15,19 +15,19 @@ const Home = () => {
         dispatch(getBooks());
     }, []);
 
-    useEffect(() => {
-        if (filterData.length > 0) {
-            setBookData(filterData);
-        } else {
-            setBookData(allBooks);
-        }
-    }, [filterData, allBooks]);
+    // useEffect(() => {
+    //     if (filterData.length > 0) {
+    //         setBookData(filterData);
+    //     } else {
+    //         setBookData(allBooks);
+    //     }
+    // }, [filterData, allBooks]);
 
     if (loading) return <Loading />;
 
     return (
         <div style={{ backgroundColor: "#e4dfdf" }}>
-            <List books={allBookData} />
+            <List books={allBooks} />
         </div>
     );
 };

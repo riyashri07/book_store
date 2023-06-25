@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const CartPage = () => {
   const { cartData } = useSelector((store) => store.cart);
+  console.log(cartData);
   const navigate = useNavigate();
 
   const handleOrder = () => {
